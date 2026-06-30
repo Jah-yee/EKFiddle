@@ -3864,7 +3864,7 @@ namespace Fiddler
                     FiddlerObject.UI.actLoadSessionArchive(openCapture.FileName);
                 }
                 // Run regexes
-                DialogResult dialogEKFiddleRunRegexes = MessageBox.Show("Sucessfully loaded: " + openCapture.SafeFileName + "\n" + "\n" 
+                DialogResult dialogEKFiddleRunRegexes = MessageBox.Show("Successfully loaded: " + openCapture.SafeFileName + "\n" + "\n" 
                  + "Would you like to run Regexes?", "EKFiddle", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if(dialogEKFiddleRunRegexes == DialogResult.Yes)
                 {
